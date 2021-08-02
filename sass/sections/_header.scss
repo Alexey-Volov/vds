@@ -1,0 +1,113 @@
+.header {
+    background-image: url("./../img/header/bg.jpg");
+    height: 1020px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 180px;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(232, 232, 232, 0.5);
+    margin-bottom: 170px;
+}
+.header-top__logo {
+}
+.header-top__nav {
+    a {
+        transition: .2s ease-in;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        &:last-child {
+            color: #FE9E45;
+            border: 1px solid #FE9E45;
+            box-shadow: 0px 0px 10px 0.5px #FE9E45;
+            padding: 15px 22px;
+            &:hover {
+                color: #FFFFFF;
+            }
+        }
+        &:hover {
+            color: #FE9E45;
+        }
+    }
+    a + a {
+        margin-left: 40px;
+        &:last-child {
+            margin-left: 80px;
+        }
+    }
+}
+.header-info {
+    text-align: center;
+}
+.header-info__title {
+    margin-bottom: 50px;
+    h1 {
+        font-weight: bold;
+        font-size: 48px;
+        color: #FFFFFF;
+    }
+}
+.header-info__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #434343;
+    span {
+        font-weight: bold;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+    .icons + .icons {
+        margin-left: 76px;
+    }
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-info__text {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    span {
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+    .info-color {
+        color: #FE9E45;
+        font-weight: 700;
+    }
+}
+.header-info__btn {
+    display: flex;
+    // padding: 16px 20px;
+    width: 280px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: unset;
+    border: none;
+    background-color: #FE9E45;
+    border: 0.5px solid #FFFFFF;
+    box-shadow: 0px 0px 15px 2px #FF6711;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    span {
+        margin-left: 6px;
+    }
+}

@@ -1,0 +1,35 @@
+.faq {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.faq__title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #4D4D4D;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E3E3E3;
+    margin-bottom: 40px;
+}
+.faq__question {
+    p {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #481C03;
+        margin-bottom: 15px;
+    }
+    span {
+        display: block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4D4D4D;
+    }
+    span + span {
+        margin-top: 25px;
+    }
+    p + span{
+        margin-bottom: 30px;
+    }
+}

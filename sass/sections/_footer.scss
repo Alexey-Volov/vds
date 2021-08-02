@@ -1,0 +1,16 @@
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #262D36;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper__desc {
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
